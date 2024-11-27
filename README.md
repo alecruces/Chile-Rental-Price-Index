@@ -2,10 +2,6 @@
 
 > Analyzing the residential rental market in Chile using new indicators based on internet listings to understand price dynamics and market slack.
 
-<p align="center">
-<img src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136" alt="image_github" style="width:300px;height:200;"/>
-</p>
-
 ## Keywords
 Real Estate, Rental Market, Price Dynamics, Market Slack, Internet Listings, Hedonic Pricing
 
