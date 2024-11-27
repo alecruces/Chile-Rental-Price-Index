@@ -18,11 +18,7 @@ Real Estate, Rental Market, Price Dynamics, Market Slack, Internet Listings, Hed
 3. [Key Results](#key-results)
 4. [Data Overview](#data-overview)
 5. [Methodology](#methodology)
-6. [Screenshots and Graphs](#screenshots-and-graphs)
 7. [Technologies Used](#technologies-used)
-8. [Setup & Installation](#setup--installation)
-9. [Usage](#usage)
-10. [Contributing](#contributing)
 
 ---
 
@@ -61,81 +57,13 @@ This project utilizes hedonic pricing models to analyze the rental market:
 **Hyperparameters**: 
 - Models were estimated using Ordinary Least Squares (OLS) and controlled for regional fixed effects.
 
-### Screenshots and Graphs
-
-These visuals illustrate data distribution, model performance, and key findings:
-
-1. **Class Distribution of Listings (Bar Chart)**  
-   Shows the number of listings per fault type, confirming dataset balance.
-
-   <p align="center">
-  <img width="413" alt="class_distribution" src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136">
-  </p>
-
-2. **Sample Listings of Rental Properties**  
-   Examples of rental properties under various conditions.
-<p align="center">
-<img width="380" alt="thermographic_samples" src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136">
-</p>
-
-3. **Price Dynamics Comparison (Bar Chart)**  
-   Comparison of rental and sale price dynamics across different areas.
-  <p align="center">
-  <img width="373" alt="model_accuracy" src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136">
-  </p>
-
-4. **Market Slack Measure**  
-   Displays the incidence and duration of rental listings, showing market slack.
-  <p align="center">
-  <img width="510" alt="Captura de pantalla 2024-11-11 a la(s) 7 45 37 p  m" src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136">
-  </p>
-
-5. **Price and Slack Dynamics Over Time**  
-   Shows the relationship between rental prices and market slack over time.
-  <p align="center">
-  <img width="912" alt="losses" src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136">
-  </p>
-  
-
-6. **Efficiency Comparison of Models**  
-   Compares the efficiency of different models in analyzing price dynamics.
-<p align="center">
-  <img width="729" alt="test_time" src="https://www.bcentral.cl/documents/33528/133326/DTBC_988.pdf/8bf1d0a5-501e-69f5-2eb2-2d5fb5e515b2?t=1697649230136">
-  </p>
-
-
 
 ### Technologies Used
 
 > 🛠️ Emphasizing the primary tools and libraries utilized.
 
-- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white): Main programming language.
+- **Stata** : Main tool for statistical analysis and programming, including hedonic price modeling.
 - **🔥 R**: Used for implementing and training the hedonic pricing models.
 - **📊 Data Mining**: Leveraged data mining techniques to extract relevant information from internet listings.
 
-### Setup & Installation
 
-Clone the repository and install the required dependencies to run the project:
-
-```bash
-# Clone the repository
-git clone https://github.com/username/Rental-Market-Analysis.git
-
-# Navigate to the project directory
-cd Rental-Market-Analysis
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Usage
-
-The repository includes the following file:
-
-- **`Rental_Market_Analysis.ipynb`**: Jupyter notebook containing the full workflow, from data loading and preprocessing to model training and evaluation.
-
-To run the project, open `Rental_Market_Analysis.ipynb` in Jupyter Notebook and execute the cells sequentially.
-
-### Contributing
-
-Contributions are welcome! Please see the contributing guidelines for more details.
